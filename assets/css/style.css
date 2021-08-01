@@ -42,21 +42,22 @@ nav{
     justify-content: space-between;
     align-items: center;
     height:10vh;
-    width:99vw;
+    width:100vw;
+    overflow-x:hidden;
     background-color:rgba(255, 254, 254, 0);
 }
 nav ul{
-    padding-right:1%;
+    
     background-color:rgba(255, 254, 254, 0);
 }
 nav ul,nav ul li{
     display:inline-block;
-    flex-basis:50%;
+    flex-basis:42%;
     background-color:rgba(255, 254, 254, 0);
     
 }
 nav img{
-    padding-left:3%;
+    padding-left:2%;
     background-color:rgba(255, 254, 254, 0);
 }
 nav ul li{
@@ -81,6 +82,7 @@ nav ul li:last-of-type{
     left:0%;
     background-color:rgba(255, 254, 254, 0);
     width:30vh;
+    z-index:4;
 }
 .circle{
     width:1.5vh;
@@ -151,4 +153,194 @@ h1{
 #article1 article{
     padding:5% 0 0 7%;
     color: rgb(115, 115, 115);
+}
+/*_______LOUNGER________*/
+#lounger{
+    height:100vh;
+    width:100vw;  
+}
+#lounger-body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#lounger div{
+    height:100vh;
+    width:70vw;
+    position:relative;
+    top:0;
+    left:-10%;
+    z-index:-1;
+    background:url("../img/section-voyager.jpg") no-repeat  ;
+    background-attachment:cover;
+    background-position: center; 
+    display:inline-block
+}
+#lounger article {
+    /* width:25vw; */
+    display:inline-block;
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 15% 5% 15% 65%;
+    z-index:1;
+}
+#lounger h2{
+    margin-bottom:15%;
+}
+#lounger p{
+    color:#867772;
+}
+/*__________________SOUNDS LIKE HOME_______________*/
+#experience{
+    height:100vh;
+    width:100vw;  
+}
+#experience-body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#experience div{
+    height:100vh;
+    width:70vw;
+    position:relative;
+    top:0;
+    left:-10%;
+    z-index:-1;
+    background:url("../img/section-experience-1.jpg") no-repeat  ;
+    background-attachment:cover;
+    background-position: center; 
+    display:inline-block
+}
+#experience article {
+    /* width:25vw; */
+    display:inline-block;
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 10% 5% 15% 65%;
+    z-index:1;
+}
+#experience h2{
+    margin-bottom:15%;
+}
+#experience p{
+    color:#867772;
+}
+/*_________SHOP_______*/
+#shop{
+    height:100vh;
+    width:100vw;  
+}
+#shop-body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#shop div{
+    height:100vh;
+    width:70vw;
+    position:relative;
+    top:0;
+    left:-10%;
+    z-index:-1;
+    background:url("../img/section-composition4.jpg") no-repeat  ;
+    background-attachment:cover;
+    background-position: center; 
+    display:inline-block
+}
+#shop article {
+    display:inline-block;
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 10% 5% 15% 65%;
+    z-index:1;
+    text-align: center;
+}
+#shop h2{
+    margin-bottom:0.5%;
+}
+#shop h6{
+    color:#867772;
+    font-size: 1.2em;
+}
+#shop h4{
+    color:#867772;
+    font-size: 1.2em;
+    margin:5%;
+}
+#shop a {
+    padding: 3% 5%;
+    background-color:#ebccc2 ;
+    color:#2e2e2e;
+    border-radius:0.5vh;
+}
+#shop a:hover{
+    background-color:#af9a92  ;
+}
+/*________INSPIRATION________*/
+video{
+    width:50%;
+    margin:10% 25%;
+}
+#inspiration{
+    padding-left:17%;
+}
+#inspiration h4{
+    color:#ebccc2;
+    font-size:1.2em;
+    margin:2% 0;
+}
+#inspiration a{
+    border:solid 0.5vh #ebccc2;
+    padding:1% 1.5%;
+    margin-bottom:10%;
+} 
+#inspiration a:hover{
+    background-color:#ebccc2;
+}
+#inspiration p{
+    color:#867772;
+    margin-top:2%;
+    margin-bottom: 10%;
+}
+#inspiration img{
+    width:40%;
+    display:inline-block;
+}
+#inspiration img :last-of-type{
+    margin-right:10%;
+}
+#article3,#article4{
+    width:50%;
+    height:50vh;
+    
+    padding: 0 20% 0 0;
+}
+#article3{
+    background:url("../img/ETC_6.webp") no-repeat  ;
+    background-attachment:cover;
+    background-position: left;
+    background-size: 50%; 
+}
+#article3 article{
+    width:50%;
+    padding: 10% 0% 0 75%;
+    
+}
+#article4 article{
+    width:60%;
+    padding: 10% 0% 0 0%;
+}
+#article3 article p,#article4 article p{
+    font-size:1em;
+    margin:0;
+    line-height: 3vh;
+
+}
+#article4{
+    background:url("../img/ETC_5.webp") no-repeat  ;
+    background-attachment:cover;
+    background-position: right;
+    background-size: 50%; 
+    margin-bottom:10%;
 }
